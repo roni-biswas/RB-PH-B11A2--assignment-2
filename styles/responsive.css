@@ -1,0 +1,49 @@
+/* 
+==================================================
+for extra small device
+==================================================
+*/
+
+@media screen and (max-width: 480px) {
+  .header {
+    height: 70px;
+  }
+
+  .brand .brand-logo > img {
+    width: 46px;
+  }
+
+  .brand-text,
+  .menu-list,
+  .navbar-contact-btn {
+    display: none;
+  }
+  .menu-bar {
+    display: block;
+  }
+}
+/* 
+==================================================
+for small/mobile device
+==================================================
+*/
+
+@media screen and (min-width: 481px) and (max-width: 576px) {
+  .header {
+    height: 70px;
+  }
+
+  .brand .brand-logo > img {
+    width: 46px;
+  }
+
+  .brand-text,
+  .menu-list,
+  .navbar-contact-btn {
+    display: none;
+  }
+
+  .menu-bar {
+    display: block;
+  }
+}
