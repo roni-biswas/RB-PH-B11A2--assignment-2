@@ -6,9 +6,20 @@ for extra small device
 
 @media screen and (max-width: 480px) {
   html {
-    font-size: 8px;
+    font-size: 6px;
   }
-  .header {
+
+  .section-padding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .section-margin {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .navbar {
     height: 70px;
     border-bottom: 0.5px solid #fea301;
   }
@@ -40,6 +51,17 @@ for extra small device
 
   .banner-content .banner-description {
     font-weight: 500;
+  }
+
+  /* curriculum styles */
+  .curriculum-card-container {
+    flex-direction: column;
+  }
+  .curriculum-card {
+    width: 100%;
+  }
+  .curriculum-card-bottom-btn {
+    display: none;
   }
 }
 /* 
@@ -52,7 +74,18 @@ for small/mobile device
   html {
     font-size: 8px;
   }
-  .header {
+
+  .section-padding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .section-margin {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .navbar {
     height: 70px;
     border-bottom: 0.5px solid #fea301;
   }
@@ -86,5 +119,20 @@ for small/mobile device
 
   .banner-content .banner-description {
     font-weight: 500;
+  }
+
+  /* curriculum styles */
+  .curriculum-card-container {
+    flex-direction: column;
+  }
+  .curriculum-card {
+    width: 100%;
+  }
+  .curriculum-card-bottom-btn {
+    display: none;
+  }
+  .curriculum-card {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 }
