@@ -69,6 +69,10 @@ for extra small device
   .footer-container {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .about-nav {
+    margin-top: 3.2rem;
+  }
 }
 /* 
 ==================================================
