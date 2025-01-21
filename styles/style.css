@@ -541,3 +541,82 @@ our stories section related styles
 }
 
 /* end our stories section */
+
+/* 
+=================================================
+footer section styles
+=================================================
+*/
+
+footer.footer {
+  background-color: #0a0826;
+  color: #ffffff;
+}
+
+.footer-container {
+  max-width: 1100px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  padding: 12rem 1.5rem 12rem;
+  margin: 0 auto;
+}
+
+.footer-brand-logo img {
+  width: 8.2rem;
+}
+
+.footer-brand {
+  margin-bottom: 3.5rem;
+}
+
+.footer-brand a {
+  text-decoration: none;
+}
+
+.footer-brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-brand-logo .footer-brand-text {
+  font-size: 4.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 4rem;
+}
+
+.footer-description {
+  font-size: 2rem;
+  font-weight: normal;
+  max-width: 80%;
+  line-height: 3rem;
+}
+
+.footer-title-section {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+}
+
+.about-nav ul li {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.about-nav li > a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+.about-nav li > a:hover {
+  color: #fea301;
+}
+
+.keep-in-touch .footer-icon {
+  display: flex;
+  gap: 10px;
+}

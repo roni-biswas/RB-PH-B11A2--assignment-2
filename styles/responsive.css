@@ -64,6 +64,11 @@ for extra small device
   .our-stories-highlight-card {
     display: none;
   }
+
+  /* footer */
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 /* 
 ==================================================
@@ -136,5 +141,14 @@ for small/mobile device
   .curriculum-card {
     padding-left: 8rem;
     padding-right: 8rem;
+  }
+
+  /* footer */
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-nav {
+    margin-top: 3.2rem;
   }
 }
