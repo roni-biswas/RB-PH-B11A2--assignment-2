@@ -60,7 +60,8 @@ for extra small device
   .curriculum-card {
     width: 100%;
   }
-  .curriculum-card-bottom-btn {
+  .curriculum-card-bottom-btn,
+  .our-stories-highlight-card {
     display: none;
   }
 }
@@ -128,7 +129,8 @@ for small/mobile device
   .curriculum-card {
     width: 100%;
   }
-  .curriculum-card-bottom-btn {
+  .curriculum-card-bottom-btn,
+  .our-stories-highlight-card {
     display: none;
   }
   .curriculum-card {

@@ -110,15 +110,15 @@ primary btn styles and hover effect
   left: 0;
   background: linear-gradient(-90deg, #01acfd, #5d58ef);
   z-index: 1;
-  transition: all 400ms ease-in;
+  transition: all 200ms ease-in;
 }
 
 .primary-btn::before {
-  opacity: 0.4;
+  opacity: 0.2;
 }
 
 .primary-btn::after {
-  transition-delay: 0.4s;
+  transition-delay: 0.2s;
 }
 
 .primary-btn:hover::before,
@@ -406,3 +406,138 @@ standard section related styles
 .card-bottom-btn:hover {
   background-color: #f7b51e;
 }
+
+/*
+================================================
+our stories section related styles
+================================================
+*/
+
+.our-stories {
+  background: linear-gradient(
+      to top,
+      rgba(254, 163, 1, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(../assets/bg.png);
+}
+
+.our-stories-card-container {
+  gap: 1.8rem;
+}
+
+.our-stories-highlight-card {
+  max-width: 540px;
+  max-height: 630px;
+  background-color: #ffffff;
+  border-radius: 1.6rem;
+}
+
+.our-stories-highlight-card img {
+  width: 100%;
+  border-radius: 1.6rem 1.6rem 0 0;
+}
+
+.our-stories-card-content {
+  margin: 5.8rem 3.8rem 3.4rem;
+  position: relative;
+}
+
+.our-stories-card-content .our-stories-card-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #000000;
+  line-height: 3.8rem;
+  margin-bottom: 5rem;
+}
+
+.our-stories-card-content .our-stories-card-description,
+.publish-date,
+.publish-date-small-card {
+  font-family: "Raleway", serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+  color: #666666;
+}
+
+.our-stories-mini-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.8rem;
+}
+
+.our-stories-mini-card .mini-card {
+  background-color: #ffffff;
+  border-radius: 1.6rem;
+}
+
+.mini-card img {
+  width: 100%;
+  border-radius: 1.6rem 1.6rem 0 0;
+}
+
+.mini-stories-card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  line-height: 2.8rem;
+  padding: 0 3.8rem;
+  padding-top: 4.2rem;
+  padding-bottom: 3rem;
+}
+
+/* stories date setup in middle image to content */
+.our-stories-card-image,
+.mini-card-image {
+  position: relative;
+  display: inline;
+}
+
+.publish-date {
+  position: absolute;
+  color: #ffffff;
+  background-color: #3cd8e8;
+  padding: 2.2rem 2.8rem;
+  border-radius: 4.5rem;
+  bottom: 35%;
+  left: 30%;
+  transform: translate(-50%, 50%);
+  line-height: 0;
+}
+
+.publish-date-small-card {
+  position: absolute;
+  color: #ffffff;
+  background-color: #3cd8e8;
+  line-height: 0;
+  padding: 1rem 1.8rem;
+  border-radius: 4.5rem;
+  bottom: 35%;
+  left: 30%;
+  transform: translate(-35%, 50%);
+  width: 17rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.date-card-bg-1,
+.date-card-bg-4 {
+  background-color: #95b226;
+}
+.date-card-bg-2,
+.date-card-bg-3 {
+  background-color: #5d58f0;
+}
+
+.date-card-bg-4 {
+  width: 13rem;
+}
+/* our-stories btn */
+
+.our-stories-btn {
+  text-align: center;
+}
+
+/* end our stories section */
