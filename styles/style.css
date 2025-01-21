@@ -52,6 +52,57 @@ shared styles
 .text-blue {
   color: #5d58ef;
 }
+
+.display-flex {
+  display: flex;
+}
+
+.primary-btn {
+  font-family: "Quicksand", serif;
+  background-color: #111111;
+  border-radius: 1.2rem;
+  padding: 1rem 4.5rem;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-text {
+  position: relative;
+  z-index: 9;
+  transition: all 0.5s linear;
+}
+
+.primary-btn::before,
+.primary-btn::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  left: 0;
+  background: linear-gradient(-90deg, #01acfd, #5d58ef);
+  z-index: 1;
+  transition: all 400ms ease-in;
+}
+
+.primary-btn::before {
+  opacity: 0.4;
+}
+
+.primary-btn::after {
+  transition-delay: 0.4s;
+}
+
+.primary-btn:hover::before,
+.primary-btn:hover::after {
+  top: 0;
+}
+
 /*
 ==================================================
 header related styles
@@ -60,7 +111,6 @@ header related styles
 
 .header {
   height: 100px;
-  border-bottom: 1px solid orange;
 }
 
 .navbar {
@@ -171,3 +221,38 @@ header related styles
 }
 
 /* end navbar */
+
+/*
+================================================
+banner related styles
+================================================
+*/
+
+.banner {
+  align-items: center;
+  gap: 5rem;
+}
+.banner-content {
+  max-width: 64rem;
+}
+.banner-content .banner-title {
+  font-size: 5.6rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2.4rem;
+}
+
+.banner-content .banner-description {
+  font-size: 2rem;
+  font-weight: normal;
+  color: var(--text-primary);
+  margin-bottom: 2.4rem;
+}
+.banner-image {
+  max-height: 575px;
+}
+.banner-image > img {
+  width: 100%;
+}
+
+/* end banner */

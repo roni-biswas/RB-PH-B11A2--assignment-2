@@ -5,8 +5,12 @@ for extra small device
 */
 
 @media screen and (max-width: 480px) {
+  html {
+    font-size: 8px;
+  }
   .header {
     height: 70px;
+    border-bottom: 0.5px solid #fea301;
   }
 
   .brand .brand-logo > img {
@@ -20,6 +24,22 @@ for extra small device
   }
   .menu-bar {
     display: block;
+  }
+  /* banner styles */
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .banner-image {
+    margin-top: 8px;
+  }
+
+  .banner-content {
+    text-align: center;
+  }
+
+  .banner-content .banner-description {
+    font-weight: 500;
   }
 }
 /* 
@@ -29,8 +49,12 @@ for small/mobile device
 */
 
 @media screen and (min-width: 481px) and (max-width: 576px) {
+  html {
+    font-size: 8px;
+  }
   .header {
     height: 70px;
+    border-bottom: 0.5px solid #fea301;
   }
 
   .brand .brand-logo > img {
@@ -45,5 +69,22 @@ for small/mobile device
 
   .menu-bar {
     display: block;
+  }
+
+  /* banner styles */
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .banner-image {
+    margin-top: 8px;
+  }
+
+  .banner-content {
+    text-align: center;
+  }
+
+  .banner-content .banner-description {
+    font-weight: 500;
   }
 }
