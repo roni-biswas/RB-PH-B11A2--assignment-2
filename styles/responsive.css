@@ -65,6 +65,16 @@ for extra small device
     display: none;
   }
 
+  .our-stories {
+    background-position: center;
+    background-size: contain;
+  }
+
+  .curriculum-section {
+    background-repeat: repeat;
+    background-size: contain;
+  }
+
   /* footer */
   .footer-container {
     grid-template-columns: repeat(1, 1fr);
@@ -145,6 +155,16 @@ for small/mobile device
   .curriculum-card {
     padding-left: 8rem;
     padding-right: 8rem;
+  }
+
+  .our-stories {
+    background-position: center;
+    background-size: contain;
+  }
+
+  .curriculum-section {
+    background-repeat: repeat;
+    background-size: contain;
   }
 
   /* footer */
